@@ -16,6 +16,12 @@ body {
     }
 }
 
+@media (max-width: 799px){
+    .logo img {
+        display: none;
+    }
+}
+
 .portfolio-item {
     margin-bottom: 30px;
 }
