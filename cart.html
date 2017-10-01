@@ -1,3 +1,12 @@
+<!-- 
+Name: Andrii Damm
+Student #: 300966307
+
+File description: this is the cart page for pizza web app. It contains all products those were added to the cart.
+                  Also the page provides checkout form and confirmation modal window.
+Version: 1.0
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -138,7 +147,7 @@
         <div class="control-group">
           <label class="control-label" for="username">Card Holder's Name</label>
           <div class="controls">
-            <input type="text" id="username"   placeholder="" class="form-control">
+            <input type="text" id="username" placeholder="" class="form-control">
           </div>
         </div>
 
@@ -146,7 +155,7 @@
         <div class="control-group">
           <label class="control-label" for="email">Card Number</label>
           <div class="controls">
-            <input type="text" id="email"   placeholder="" class="form-control">
+            <input type="text" id="email" placeholder="" class="form-control">
           </div>
         </div>
 
@@ -158,7 +167,7 @@
 
 
               <div class="col-md-2">
-                <select class="form-control"   id="expiry_month">
+                <select class="form-control" id="expiry_month">
                           <option></option>
                           <option value="01">Jan (01)</option>
                           <option value="02">Feb (02)</option>
@@ -175,7 +184,7 @@
                         </select>
               </div>
               <div class="col-md-2">
-                <select class="form-control"  >
+                <select class="form-control">
                           <option></option>
                           <option value="13">2013</option>
                           <option value="14">2014</option>
@@ -197,26 +206,26 @@
         <!-- CVV -->
       </form>
 
-          <div class="form-group">
-              <label class="control-label" for="password_confirm">Card CVV</label>
-              <div class="controls">
-                <input type="password" id="password_confirm"   placeholder="" class="form-control">
-              </div>
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-danger" onclick="location.href='detail.html'">Cancel</button>
-              <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Submit</button>
-              
-            </div>
+      <div class="form-group">
+        <label class="control-label" for="password_confirm">Card CVV</label>
+        <div class="controls">
+          <input type="password" id="password_confirm" placeholder="" class="form-control">
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-danger" onclick="location.href='detail.html'">Cancel</button>
+        <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#myModal">Submit</button>
+
+      </div>
     </div>
 
   </div>
   <!-- /.container -->
-<!-- Modal -->
- <!-- Modal -->
+  <!-- Modal -->
+  <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
@@ -231,7 +240,7 @@
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-      
+
     </div>
   </div>
   <!-- Footer -->

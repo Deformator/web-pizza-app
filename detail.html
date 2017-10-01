@@ -1,3 +1,11 @@
+<!-- 
+Name: Andrii Damm
+Student #: 300966307
+
+File description: this is the product detail page for pizza web app. It contains details for chosen product.
+Version: 1.0
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,56 +65,56 @@
   <!-- Page Content -->
   <div class="container">
     <section class="detail-view">
-    <div class="row">
+      <div class="row">
 
-      <div class="col-md-8">
-        <img class="img-fluid" src="images/bigts-pizza-all-meat-detail.png" alt="">
-      </div>
+        <div class="col-md-8">
+          <img class="img-fluid" src="images/bigts-pizza-all-meat-detail.png" alt="">
+        </div>
 
-      <div class="col-md-4">
-        <h3 class="my-3">All Meat Pizza</h3>
-        <p>Specially created for meat lovers with Pepperoni, Sausage, Ham, Canadian Bacon & Beef</p>
-        <h4 class="my-3">Ingredients</h4>
-        <ul>
-          <li>Beef</li>
-          <li>Fresh Mooshroms</li>
-          <li>Chicken</li>
-          <li>Pork</li>
-          <li>Cheese</li>
-          <li>Onions</li>
-          <li>Tomatos</li>
-        </ul>
-        <div>
+        <div class="col-md-4">
+          <h3 class="my-3">All Meat Pizza</h3>
+          <p>Specially created for meat lovers with Pepperoni, Sausage, Ham, Canadian Bacon & Beef</p>
+          <h4 class="my-3">Ingredients</h4>
+          <ul>
+            <li>Beef</li>
+            <li>Fresh Mooshroms</li>
+            <li>Chicken</li>
+            <li>Pork</li>
+            <li>Cheese</li>
+            <li>Onions</li>
+            <li>Tomatos</li>
+          </ul>
+          <div>
             <div class="form-group">
               <label for="Quantity">Quantity:</label>
               <input type="number" class="form-control" id="Quantity">
             </div>
             <div class="form-group">
-                <label for="size">Select size:</label>
-                <select class="form-control" id="size">
+              <label for="size">Select size:</label>
+              <select class="form-control" id="size">
                   <option>30cm - 12$</option>
                   <option>45cm - 15$</option>
                 </select>
+            </div>
+            <div class="form-group">
+              <span>Add extra:</span>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Beef - 3$</label>
               </div>
-              <div class="form-group">
-                  <span>Add extra:</span>
-                  <div class="checkbox">
-                      <label><input type="checkbox" value=""> Beef - 3$</label>
-                    </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox" value=""> Chicken - 2$</label>
-                    </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox" value=""> Pork - 2$</label>
-                    </div>
-                </div>           
-            <button type="submit" class="btn btn-success" onclick="location.href='cart.html'">Submit</button>
-            <button type="submit" class="btn btn-danger" onclick="location.href='index.html'">Cancel</button>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Chicken - 2$</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Pork - 2$</label>
               </div>
             </div>
+            <button type="submit" class="btn btn-success" onclick="location.href='cart.html'">Submit</button>
+            <button type="submit" class="btn btn-danger" onclick="location.href='index.html'">Cancel</button>
+          </div>
+        </div>
 
-    </div>
-  </section>
+      </div>
+    </section>
 
   </div>
   <!-- /.container -->
