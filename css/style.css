@@ -31,3 +31,9 @@ body {
     padding-top: 40px;
     padding-bottom: 98px;
 }
+
+.cart-row {
+    border-top: 2px solid grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
